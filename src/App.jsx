@@ -37,7 +37,7 @@ function App() {
       <Box minH="100vh" bg={colorMode === 'light' ? '#ffffff' : '#0f0a19'} color={colorMode === 'light' ? 'gray.700' : 'gray.300'} px={6} py={8}>
         <Flex justifyContent="space-between" alignItems="center" mb={4}>
           <Flex alignItems="center">
-            <img src="/code-compiler/curly_bracket_icon.png" alt="Logo" style={{ width: '40px', height: '40px', marginRight: '8px' }} />
+            <img src="${process.env.PUBLIC_URL}/curly_bracket_icon.png" alt="Logo" style={{ width: '40px', height: '40px', marginRight: '8px' }} />
             <Text 
               fontSize="2xl" 
               fontWeight="bold"
